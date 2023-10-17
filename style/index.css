@@ -1,0 +1,85 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-color: #113946;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.main-header {
+  color: #ead7bb;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.main-btn {
+  color: #000;
+  font-size: 28px;
+  font-weight: 600;
+  background-color: #bca37f;
+  padding: 16px 52px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.main-btn:hover {
+  background-color: #fff2d8;
+}
+
+.number-input {
+  width: 40%;
+  border: none;
+  padding: 15px 32px;
+  font-size: 28px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.guess-btn {
+  border-radius: 6px;
+  border: 1px solid rgba(26, 22, 198, 0.82);
+  background: #bca37f;
+  color: #000;
+  padding: 15px 25px;
+  font-size: 28px;
+  cursor: pointer;
+  transition: 0.7s;
+  border: none;
+}
+
+.guess-btn:hover {
+  background: #fff2d8;
+}
+
+progress {
+  margin-block: 30px;
+  width: 700px;
+  height: 30px;
+  border: green 1px solid;
+  color: green;
+  border-radius: 5px;
+}
+
+progress::-webkit-progress-value {
+  transition: 1s width;
+}
+
+.text {
+  color: #ead7bb;
+}

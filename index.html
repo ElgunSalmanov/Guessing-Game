@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="main-header">Guessing Game!</div>
+      <div class="main-content">
+        <button class="main-btn">Start a new game</button>
+        <h3 class="text">Guess a number between 1-100:</h3>
+        <div class="input-section">
+          <input type="number" class="number-input" />
+          <button class="guess-btn">Guess</button>
+        </div>
+        <progress max="100" value="0"></progress>
+      </div>
+      <div class="main-bottom">
+        <h3 class="text">Your recorded Guesses:</h3>
+        <h3 class="text" id="guesses">Not Started!</h3>
+      </div>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
